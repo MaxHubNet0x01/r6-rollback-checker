@@ -1,0 +1,7 @@
+remote_theme: pages-themes/slate@v0.2.0
+destination: _build
+safe: false
+exclude:
+  - _temp/
+plugins:
+- jekyll-remote-theme

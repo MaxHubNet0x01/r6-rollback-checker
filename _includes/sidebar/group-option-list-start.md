@@ -1,0 +1,1 @@
+<ul class="space-y-1 mt-2 pl-4 hidden peer-checked:block">

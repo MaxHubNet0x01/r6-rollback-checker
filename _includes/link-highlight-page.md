@@ -1,0 +1,1 @@
+<a href="{{ include.href }}" class="text-{{ page.main_color }} underline font-bold link-highlight-page">{{ include.text }}</a>

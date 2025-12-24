@@ -1,0 +1,3 @@
+{
+  "home-icon": "{% include home-icon.svg %}"
+}

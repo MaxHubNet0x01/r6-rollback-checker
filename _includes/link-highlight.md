@@ -1,0 +1,1 @@
+<a href="{{ include.href | relative_url }}" class="text-{{ page.main_color }} underline {{ include.extra_class }}">{{ include.text }}</a>

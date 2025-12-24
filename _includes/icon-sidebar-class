@@ -1,0 +1,1 @@
+class="w-[20px] h-[20px] mr-4 {{ include.class }}"

@@ -1,0 +1,1 @@
+<span class="text-{{ include.color }} underline {{ include.extra_class }}">{{ include.text }}</span>

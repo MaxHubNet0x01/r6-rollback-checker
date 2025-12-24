@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}" class="darkmode">
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,maximum-scale=2">
+  <link rel="stylesheet" type="text/css" media="screen"
+    href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <script src="{{ '/assets/js/tailwind.js?v=' | append: site.github.build_revision | relative_url }}"></script>
+  <script src="{{ '/assets/js/jquery.js?v=' | append: site.github.build_revision | relative_url }}"></script>
+  <script src="{{ '/assets/js/main.js?v=' | append: site.github.build_revision | relative_url }}"></script>
+
+  {% seo %}
+  {% include head-custom.html %}
+</head>
+
+<body>
+  <!-- HEADER -->
+  <div class="outer">
+    {% include navbar/default.md %}
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="outer flex min-h-screen">
+    <section id="main-content"  data-page-id="{{ page.id }}" data-page-main-color="{{ page.main_color }}" class="w-full py-10 dark:bg-zinc-900 dark:text-gray-300 px-10">
+      {{ content }}
+    </section>
+  </div>
+</body>
+</html>

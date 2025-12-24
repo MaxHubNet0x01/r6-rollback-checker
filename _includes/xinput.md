@@ -1,0 +1,1 @@
+<button class="px-2 rounded-3xl text-center text-white bg-{{ include.color }}-500">{{ include.btn }}</button>

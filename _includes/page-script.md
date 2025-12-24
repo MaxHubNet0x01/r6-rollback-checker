@@ -1,0 +1,1 @@
+<script src="{{ include.src | relative_url }}" type="text/javascript"></script>
